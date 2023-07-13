@@ -22,27 +22,27 @@
   <body>
     <header class="header">
       <div class="container header-container">
-        <nav class="nav-panel">
-          <a class="logo-link link" href="./index.html"
+        <nav class="header-navbar">
+          <a class="header-logo-link link" href="./index.html"
             >Web<span class="logo-span">Studio</span></a
           >
           <ul class="list">
-            <li><a class="list-link link" href="./index.html">Studio</a></li>
+            <li><a class="header-list-link link" href="./index.html">Studio</a></li>
             <li>
-              <a class="list-link link" href="./portfolio.html">Portfolio</a>
+              <a class="header-list-link link" href="./portfolio.html">Portfolio</a>
             </li>
-            <li><a class="list-link link" href="">Contacts</a></li>
+            <li><a class="header-list-link link" href="">Contacts</a></li>
           </ul>
         </nav>
-        <address class="addr-list link">
+        <address class="header-addr-list link">
           <ul class="list">
             <li>
-              <a class="addr-link link" href="mailto:info@devstudio.com"
+              <a class="header-addr-link link" href="mailto:info@devstudio.com"
                 >info@devstudio.com</a
               >
             </li>
             <li>
-              <a class="addr-link link" href="tel:+110001111111"
+              <a class="header-addr-link link" href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
@@ -63,9 +63,11 @@
 
           <ul class="list ruls-list">
             <li class="ruls-item">
-              <svg class="ruls-list-icon">
-                <use href="./images/icons.svg#antenna"></use>
-              </svg>
+              <div class="ruls-icon-container">
+                <svg class="ruls-list-icon" width="64" height="64">
+                  <use href="./images/icons.svg#antenna"></use>
+                </svg>
+              </div>
               <h3 class="third-title">Strategy</h3>
               <p class="paragraph">
                 Our goal is to identify the business problem to walk away with
@@ -73,9 +75,11 @@
               </p>
             </li>
             <li class="ruls-item">
-              <svg class="ruls-list-icon">
-                <use href="./images/icons.svg#clock"></use>
-              </svg>
+              <div class="ruls-icon-container">
+                <svg class="ruls-list-icon" width="64" height="64">
+                  <use href="./images/icons.svg#clock"></use>
+                </svg>
+              </div>
               <h3 class="third-title">Punctuality</h3>
               <p class="paragraph">
                 Bring the key message to the brand's audience for the best price
@@ -83,9 +87,11 @@
               </p>
             </li>
             <li class="ruls-item">
-              <svg class="ruls-list-icon">
-                <use href="./images/icons.svg#diagram"></use>
-              </svg>
+              <div class="ruls-icon-container">
+                <svg class="ruls-list-icon" width="64" height="64">
+                  <use href="./images/icons.svg#diagram"></use>
+                </svg>
+              </div>
               <h3 class="third-title">Diligence</h3>
               <p class="paragraph">
                 Research and confirm brands that present the strongest digital
@@ -93,9 +99,11 @@
               </p>
             </li>
             <li class="ruls-item">
-              <svg class="ruls-list-icon">
-                <use href="./images/icons.svg#astronaut"></use>
-              </svg>
+              <div class="ruls-icon-container">
+                <svg class="ruls-list-icon" width="64" height="64">
+                  <use href="./images/icons.svg#astronaut"></use>
+                </svg>
+              </div>
               <h3 class="third-title">Technologies</h3>
               <p class="paragraph">
                 Design practice focused on digital experiences. We bring forth a
@@ -150,9 +158,36 @@
               <div class="team-description">
                 <h3 class="third-title team-title">Mark Guerrero</h3>
                 <p class="paragraph team-paragraph">Product Designer</p>
-                <svg class="social-icons">
-                  <use href="./images/icons.svg#instagram"></use>
-                </svg>
+                <ul class="social-list list">
+                  <li class="team-social-item">
+                    <a class="team-social-links link" href="">
+                      <svg class="team-social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social-item">
+                    <a class="team-social-links link" href="">
+                      <svg class="team-social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social-item">
+                    <a class="team-social-links link" href="">
+                      <svg class="team-social-icon width="16" height="16">
+                        <use href="./images/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="team-social-item">
+                    <a class="team-social-links link" href="">
+                      <svg class="team-social-icon" width="16" height="16">
+                        <use href="./images/icons.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
             <li class="team-list">
@@ -165,6 +200,36 @@
               <div class="team-description">
                 <h3 class="third-title team-title">Tom Ford</h3>
                 <p class="paragraph team-paragraph">Frontend Developer</p>
+                <ul class="list social-list">
+                  <li class="social-icons">
+                    <a href="">
+                      <svg class="social-container" width="16" height="16">
+                        <use href="./images/icons.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-icons">
+                    <a href="">
+                      <svg class="social-container" width="16" height="16">
+                        <use href="./images/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-icons">
+                    <a href="">
+                      <svg class="social-cotainer" width="16" height="16">
+                        <use href="./images/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-icons">
+                    <a href="">
+                      <svg class="social-container" width="16" height="16">
+                        <use href="./images/icons.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
             <li class="team-list">
@@ -177,6 +242,36 @@
               <div class="team-description">
                 <h3 class="third-title team-title">Camila Garcia</h3>
                 <p class="paragraph team-paragraph">Marketing</p>
+                <ul class="list social-list">
+                  <li class="social-icons">
+                    <a href="">
+                      <svg class="social-container" width="16" height="16">
+                        <use href="./images/icons.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-icons">
+                    <a href="">
+                      <svg class="social-container" width="16" height="16">
+                        <use href="./images/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-icons">
+                    <a href="">
+                      <svg class="social-cotainer" width="16" height="16">
+                        <use href="./images/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-icons">
+                    <a href="">
+                      <svg class="social-container" width="16" height="16">
+                        <use href="./images/icons.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
             </li>
             <li class="team-list">
@@ -189,7 +284,74 @@
               <div class="team-description">
                 <h3 class="third-title team-title">Daniel Wilson</h3>
                 <p class="paragraph team-paragraph">UI Designer</p>
+                <ul class="list social-list">
+                  <li class="social-icons">
+                    <a href="">
+                      <svg class="social-container" width="16" height="16">
+                        <use href="./images/icons.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-icons">
+                    <a href="">
+                      <svg class="social-container" width="16" height="16">
+                        <use href="./images/icons.svg#twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-icons">
+                    <a href="">
+                      <svg class="social-cotainer" width="16" height="16">
+                        <use href="./images/icons.svg#facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li class="social-icons">
+                    <a href="">
+                      <svg class="social-container" width="16" height="16">
+                        <use href="./images/icons.svg#linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
               </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="customers-section">
+        <div class="container customers-container">
+          <h2 class="customers-title">Customers</h2>
+          <ul class="list customers-list">
+            <li class="customers-item">
+              <svg class="customers-icons" width="104" height="56">
+                <use href="./images/icons.svg#Logo1"></use>
+              </svg>
+            </li>
+            <li class="customers-item">
+              <svg class="customers-icons" width="104" height="56">
+                <use href="./images/icons.svg#Logo2"></use>
+              </svg>
+            </li>
+            <li class="customers-item">
+              <svg class="customers-icons" width="104" height="56">
+                <use href="./images/icons.svg#Logo3"></use>
+              </svg>
+            </li>
+            <li class="customers-item">
+              <svg class="customers-icons" width="104" height="56">
+                <use href="./images/icons.svg#Logo4"></use>
+              </svg>
+            </li>
+            <li class="customers-item">
+              <svg class="customers-icons" width="104" height="56">
+                <use href="./images/icons.svg#Logo5"></use>
+              </svg>
+            </li>
+            <li class="uastomers-item">
+              <svg class="customers-icons" width="104" height="56">
+                <use href="./images/icons.svg#Logo6"></use>
+              </svg>
             </li>
           </ul>
         </div>
