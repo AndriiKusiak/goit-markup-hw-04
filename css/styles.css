@@ -605,8 +605,8 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.gallary-link:hover .gallary-cover-text,
-.gallary-link:focus .gallary-cover-text {
+.gallary-link:hover .gallery-cover-text,
+.gallary-link:focus .gallery-cover-text {
   transform: translateY(0%);
 }
 
