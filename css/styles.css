@@ -516,32 +516,7 @@ img {
   fill: var(--cloud-color);
 }
 
-/* ----------------------------- */
-
-.div-text {
-  padding: 32px 16px;
-  border: 1px solid var(--cornflower);
-  border-top: none;
-}
-
-.gallery-title {
-  color: var(--navyblue-color);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  text-transform: capitalize;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
-}
-
-.third-title {
-  color: var(--navyblue-color);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
-}
+/* ----------END FOOTER--------------- */
 
 /* -----------PORTFOLIO-------------- */
 .portfolio-section {
@@ -602,9 +577,8 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.gallary-link:hover .gallary-hover-text,
-.gallary-link:focus .gallary-hover-text {
-  transform: translateY(0%);
+.gallary-link:hover,
+.gallary-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -614,7 +588,7 @@ img {
   overflow: hidden;
 }
 
-.gallery-hover-text {
+.gallery-cover-text {
   position: absolute;
   top: 0;
   left: 0;
@@ -629,6 +603,29 @@ img {
   height: 100%;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gallary-link:hover .gallary-cover-text,
+.gallary-link:focus .gallary-cover-text {
+  transform: translateY(0%);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.gallery-title {
+  color: var(--navyblue-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
+}
+
+.div-text {
+  padding: 32px 16px;
+  border: 1px solid var(--cornflower);
+  border-top: none;
 }
 
 /* -----Modul Window----- */
